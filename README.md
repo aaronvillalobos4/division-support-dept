@@ -1,16 +1,11 @@
 # Division Support Analysis
-This repository contains a specialized SQL query used to extract insights from the division-support dataset. The primary goal of this script is to quantify the volume of support requests categorized by different department types.
+[![View Dashboard](https://img.shields.io/badge/View-Dashboard-blue?style=for-the-badge&logo=googlecloud)](https://lookerstudio.google.com/reporting/5b57d7a0-60db-4730-9399-d745dae95385)
 
-<h2>Script Overview</h2>
-The script collects data from a BigQuery table to provide a high level summary of division requests by department.
+<h2>Overview</h2>
+Created a structured reporting framework in BigQuery to categorize support requests by project type and volume.
 
-<h2>Logic Flow</h2>
-Selection: It selects the department identifier (string_field_2) and aliases it as Dept_Type.
+<h2>Data Engineering & Architecture</h2>
+Provided leadership with real time visual trend analysis to assist in resource planning and workload management.
 
-Aggregation: It counts the number of requests from each department to determine the Total_Requests.
-
-Source: Data is pulled from the full project table: `division-support.dvision_support_all.division-support-table-all`.
-
-Grouping: Results are grouped by the department type to ensure unique rows per department.
-
-Ordering: The output is sorted in descending order (highest volume first) to highlight the departments with the most requests.
+<h2>Impact & Results</h2>
+Reporting insights directly informed the hiring of five or more employees and improved service request outcomes across multiple city divisions.
